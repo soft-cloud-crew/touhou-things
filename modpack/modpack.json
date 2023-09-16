@@ -1,0 +1,11 @@
+{
+    "name": "Touhou things",
+    "internal_name":"touhou_things",
+    "description": {
+        "English": "A modpack adding many touhou related items",
+        "Spanish": "Un modpack que agrega varios objetos de touhou project"
+    },
+    "author": "SCC",
+    "version": "0.1.0",
+    "website": "https://github.com/soft-cloud-crew/touhou-things"
+}
