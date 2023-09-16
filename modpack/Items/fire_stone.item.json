@@ -1,0 +1,30 @@
+{
+    "name": {
+        "English": "Fire magic stone",
+        "Spanish": "Piedra mágica de fuego"
+    },
+    "flavor": {
+        "English": "One would think that sunday is the day of fire, but it's tuesday",
+        "Spanish": "¿Que solo martes es el dia del fuego? tenemos la solucion"
+    },
+
+    "rarity": "Legendary",
+    "shape": ["X", "X"],
+    "type": ["Weapon", "ManaStone"],
+    "group": ["Magic"],
+    "animation": "Attack",
+    "use_limits": { "perTurn": 1, "perCombat": 7 },
+
+    "item_status_effects": [
+        { "type": "conductive" },
+        { "type": "projectile" },
+        { "type": "cannotBeRotated" },
+        { "type": "unique" }
+    ],
+    "combat_effects": [
+        { "trigger": "onUse", "type": "Burn", "value": "7", "target": "allEnemies" },
+        { "trigger": "onUse", "type": "ManaToSelfOnly", "value": "1" }
+    ],
+
+    "manastone": { "mana": 0, "max_mana": 7 }
+}
