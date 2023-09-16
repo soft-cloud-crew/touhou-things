@@ -1,0 +1,30 @@
+{
+    "name": {
+        "English": "Moon magic stone",
+        "Spanish": "Piedra mágica de la luna"
+    },
+    "flavor": {
+        "English": "Why moonday? you can only see it in the night",
+        "Spanish": "Es importante recordar que puedes ver la luna mas dias que lunes"
+    },
+
+    "rarity": "Legendary",
+    "shape": ["X", "X"],
+    "type": ["Weapon", "ManaStone"],
+    "group": ["Magic"],
+    "animation": "Attack",
+    "use_limits": { "perTurn": 1, "perCombat": 7 },
+
+    "item_status_effects": [
+        { "type": "conductive" },
+        { "type": "projectile" },
+        { "type": "cannotBeRotated" },
+        { "type": "unique" }
+    ],
+    "combat_effects": [
+        { "trigger": "onUse", "type": "Haste", "value": "4", "target": "allEnemies" },
+        { "trigger": "onUse", "type": "ManaToSelfOnly", "value": "1" }
+    ],
+
+    "manastone": { "mana": 0, "max_mana": 7 }
+}

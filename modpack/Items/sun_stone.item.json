@@ -1,0 +1,30 @@
+{
+    "name": {
+        "English": "Sun magic stone",
+        "Spanish": "Piedra mágica del sol"
+    },
+    "flavor": {
+        "English": "Finally, a day that corresponds to its element",
+        "Spanish": "Suerte que no tienes que salir al sol en domingo"
+    },
+
+    "rarity": "Legendary",
+    "shape": ["X", "X"],
+    "type": ["Weapon", "ManaStone"],
+    "group": ["Magic"],
+    "animation": "Attack",
+    "use_limits": { "perTurn": 1, "perCombat": 7 },
+
+    "item_status_effects": [
+        { "type": "conductive" },
+        { "type": "projectile" },
+        { "type": "cannotBeRotated" },
+        { "type": "unique" }
+    ],
+    "combat_effects": [
+        { "trigger": "onUse", "type": "Rage", "value": "4", "target": "allFriendlies" },
+        { "trigger": "onUse", "type": "ManaToSelfOnly", "value": "1" }
+    ],
+
+    "manastone": { "mana": 0, "max_mana": 7 }
+}
