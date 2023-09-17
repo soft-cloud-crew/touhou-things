@@ -22,7 +22,7 @@
         { "type": "unique" }
     ],
     "combat_effects": [
-        { "trigger": "onUse", "type": "Haste", "value": "4", "target": "allEnemies" },
+        { "trigger": "onUse", "type": "Haste", "value": "4", "target": "allFriendlies" },
         { "trigger": "onUse", "type": "ManaToSelfOnly", "value": "1" }
     ],
 
