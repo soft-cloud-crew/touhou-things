@@ -1,0 +1,13 @@
+{
+    "name": {
+        "English": "Vampire fangs",
+        "Spanish": "Colmillos vampiricos"
+    },
+    "shape": [ "XX" ],
+    "rarity": "Rare",
+    "type": [ "Accessory" ],
+    "animation": "Attack",
+    "combat_effects": [
+        { "trigger": "onScratch", "type": "Vampire", "value": 5, "target": "enemy" }
+    ]
+}

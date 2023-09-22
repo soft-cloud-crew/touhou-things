@@ -1,0 +1,30 @@
+{
+    "name": {
+        "English": "Beauty of Destruction",
+        "Spanish": "Belleza de la Destrucción"
+    },
+    "flavor": {
+        "English": "storing curses? that's very dumb. let's use their power by destroying them",
+        "Spanish": "¿Guardar maldiciones? una idea muy tonta. Mejor usar su poder al destruirlas"
+    },
+
+    "rarity": "Legendary",
+    "shape": ["X"],
+    "type": ["Accessory"],
+    "group": ["Cursed"],
+    "modifiers": [
+        {   "trigger": "onDestroy",
+            "trigger_on_type": [ "Curse" ],
+            "trigger_area": [ "board" ],
+            "trigger_description": {
+                "English": "When a curse is destroyed",
+                "Spanish": "Cuando una maldición es destruida"
+            },
+            "effects": [
+                { "type": "Damage", "value": 2 }
+            ],
+            "mod_area": ["adjacent"],
+            "mod_types": ["Weapon"]
+        }
+    ]
+}
