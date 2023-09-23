@@ -9,5 +9,8 @@
     "animation": "Attack",
     "combat_effects": [
         { "trigger": "onScratch", "type": "Vampire", "value": 5, "target": "enemy" }
+    ],
+    "create_effects": [
+        { "trigger": "onKill", "create_items": ["fake_wine"], "create_areas": "board" }
     ]
 }

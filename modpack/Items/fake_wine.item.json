@@ -1,0 +1,18 @@
+{
+    "name": {
+        "English": "Glass of \"wine\"",
+        "Spanish": "Copa de \"vino\""
+    },
+    "rarity": "Uncommon",
+    "shape": ["X"],
+    "type": [ "Consumable", "Scary" ],
+    "group": [ "Destructibles", "Berserker" ],
+    "flavor": {
+        "English": "- How many [REDACTED] have you drinked?\n+ how many bread have you eaten?\n - 13, i prefer japanese food",
+        "Spanish": "- Cuanta [REDACTADO] has bebido?\n+ cuantos panes has comido?\n - 13, prefiero la comida japonesa"
+    },
+    "combat_effects": [
+        { "trigger": "onUse", "type": "Rage", "value": 5 },
+        { "trigger": "onUse", "type": "Destroy" }
+    ]
+}
