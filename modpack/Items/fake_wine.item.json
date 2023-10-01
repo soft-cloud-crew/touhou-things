@@ -12,7 +12,10 @@
         "Spanish": "- Cuanta [REDACTADO] has bebido?\n+ cuantos panes has comido?\n - 13, prefiero la comida japonesa"
     },
     "combat_effects": [
-        { "trigger": "onUse", "type": "Rage", "value": 5 },
-        { "trigger": "onUse", "type": "Destroy" }
+        { "trigger": "onUse", "type": "Rage", "value": 1 },
+        { "trigger": "onUse", "type": "Heal", "value": 1 }
+    ],
+    "modifiers": [
+        { "trigger": "onUse", "effects": [{ "type": "Destroy" }] }
     ]
 }

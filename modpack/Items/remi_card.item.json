@@ -6,11 +6,13 @@
     "shape": [ "XX" ],
     "rarity": "Rare",
     "type": [ "Accessory" ],
+    "group": [ "Scratch" ],
     "animation": "Attack",
     "combat_effects": [
-        { "trigger": "onScratch", "type": "Vampire", "value": 5, "target": "enemy" }
+        { "trigger": "onScratch", "type": "Vampire", "value": 5, "target": "enemy" },
+        { "trigger": "onKillEnemy", "type": "Rage", value: 1, "target": "self" }
     ],
     "create_effects": [
-        { "trigger": "onKill", "create_items": ["fake_wine"], "create_areas": "board" }
+        { "trigger": "whenAnEnemyIsDefeated", "create_type": "inOpenSpace", "create_items": ["Glass of \"wine\""] }
     ]
 }
