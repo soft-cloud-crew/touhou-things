@@ -1,0 +1,34 @@
+{
+    "name": {
+        "English": "Lesser Demon Wings",
+        "Spanish": "Alas de demonio pequeño"
+    },
+    "shape": [ "XX" ],
+    "rarity": "Rare",
+    "type": [ "Armor" ],
+    "group": [ "Magic", "Armored" ],
+    "combat_effects": [
+        { "trigger": "onTurnStart", "type": "Block", "value": 0 }
+    ],
+    "modifiers": [
+        {
+            "trigger": "constant",
+            "trigger_on_type": [ "ManaStone" ],
+            "trigger_area": [ "connected" ],
+            "effects": [
+                { "type": "Block", "value": 2 }
+            ]
+        },
+        {
+            "trigger": "constant",
+            "trigger_on_type": [ "Book" ],
+            "trigger_area": [ "row" ],
+            "effects": [
+                { "type": "Block", "value": 3 }
+            ]
+        }
+    ],
+    "item_status_effects": [
+        { "type": "conductive", "length": "permanent" }
+    ]
+}
