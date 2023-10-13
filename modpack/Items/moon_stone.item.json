@@ -7,6 +7,7 @@
         "English": "Why moonday? you can only see it in the night",
         "Spanish": "Es importante recordar que puedes ver la luna mas dias que lunes"
     },
+    "sprite": "sprites/moon_crystal.png",
 
     "rarity": "Legendary",
     "shape": ["X", "X"],

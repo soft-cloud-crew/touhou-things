@@ -7,6 +7,7 @@
         "English": "One would think that sunday is the day of fire, but it's tuesday",
         "Spanish": "¿Que solo martes es el dia del fuego? tenemos la solucion"
     },
+    "sprite": "sprites/fire_crystal.png",
 
     "rarity": "Legendary",
     "shape": ["X", "X"],

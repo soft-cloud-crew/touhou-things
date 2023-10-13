@@ -7,6 +7,7 @@
         "English": "Finally, a day that corresponds to its element",
         "Spanish": "Suerte que no tienes que salir al sol en domingo"
     },
+    "sprite": "sprites/sun_crystal.png",
 
     "rarity": "Legendary",
     "shape": ["X", "X"],

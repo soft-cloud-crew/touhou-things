@@ -7,6 +7,7 @@
         "English": "",
         "Spanish": ""
     },
+    "sprite": "sprites/metal_crystal.png",
 
     "rarity": "Legendary",
     "shape": ["X", "X"],

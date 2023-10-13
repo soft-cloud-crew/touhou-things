@@ -7,6 +7,7 @@
         "English": "Be careful to not flood the entire dungeon",
         "Spanish": "Cuidado, tiene el poder de inundar toda la mazmorra"
     },
+    "sprite": "sprites/water_crystal.png",
 
     "rarity": "Legendary",
     "shape": ["X", "X"],
