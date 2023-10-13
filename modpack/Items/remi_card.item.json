@@ -10,9 +10,9 @@
     "animation": "Attack",
     "combat_effects": [
         { "trigger": "onScratch", "type": "Vampire", "value": 5, "target": "enemy" },
-        { "trigger": "onKillEnemy", "type": "Rage", value: 1, "target": "self" }
+        { "trigger": "onKillEnemy", "type": "Rage", value: 1 }
     ],
     "create_effects": [
-        { "trigger": "whenAnEnemyIsDefeated", "create_type": "inOpenSpace", "create_items": ["Glass of \"wine\""] }
+        { "trigger": "whenAnEnemyIsDefeated", "create_areas": ["adjacent"], "create_items": ["Glass of \"wine\""] }
     ]
 }

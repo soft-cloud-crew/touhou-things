@@ -13,7 +13,7 @@
     },
     "combat_effects": [
         { "trigger": "onUse", "type": "Rage", "value": 1 },
-        { "trigger": "onUse", "type": "Heal", "value": 1 }
+        { "trigger": "onUse", "type": "HP", "value": 1 }
     ],
     "modifiers": [
         { "trigger": "onUse", "effects": [{ "type": "Destroy" }] }

@@ -12,6 +12,13 @@
     "shape": ["X"],
     "type": ["Accessory"],
     "group": ["Cursed"],
+
+    "use_costs": { energy: 3 },
+    "use_limits": { "perCombat": 1 },
+
+    "combat_effects": [
+        { "trigger": "onUse", "type": "rage", "value": 0 }
+    ],
     "modifiers": [
         {   "trigger": "onDestroy",
             "trigger_on_type": [ "Curse" ],
@@ -21,10 +28,10 @@
                 "Spanish": "Cuando una maldición es destruida"
             },
             "effects": [
-                { "type": "Damage", "value": 2 }
+                { "type": "Rage", "value": 1}
             ],
-            "mod_area": ["adjacent"],
-            "mod_types": ["Weapon"]
+            "stackable": true,
+            "length": "permanent"
         }
     ]
 }
