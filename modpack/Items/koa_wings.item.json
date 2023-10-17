@@ -8,7 +8,8 @@
     "type": [ "Armor" ],
     "group": [ "Magic", "Armored" ],
     "combat_effects": [
-        { "trigger": "onTurnStart", "type": "Block", "value": 0 }
+        { "trigger": "onTurnStart", "type": "Block", "value": 0 },
+        { "trigger": "onTurnStart", "type": "Haste", "value": 0 }
     ],
     "modifiers": [
         {
@@ -16,15 +17,15 @@
             "trigger_on_type": [ "ManaStone" ],
             "trigger_area": [ "connected" ],
             "effects": [
-                { "type": "Block", "value": 2 }
+                { "type": "Block", "value": 5 }
             ]
         },
         {
             "trigger": "constant",
             "trigger_on_type": [ "Book" ],
-            "trigger_area": [ "row" ],
+            "trigger_area": [ "column" ],
             "effects": [
-                { "type": "Block", "value": 3 }
+                { "type": "Haste", "value": 0.75 }
             ]
         }
     ],
